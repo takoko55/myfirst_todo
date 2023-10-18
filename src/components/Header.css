@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.todo-header{
+    height: 5dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    font-size: calc(12px + 2vmin);
+    color: black;
+    padding: 20px 40px;
+    background-color: #D9D9D9;
+}
