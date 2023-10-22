@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.task{
+    display: flex;
+    align-items: center;
+    margin: 20px 40px;
+    background-color: #d9d9d9;
+    font-size:auto;
+}
+
+.taskcontents{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.task-urgency{
+    width: 40px;
+    height: 80px;
+    background-color: #A0DE6F;
+    
+}
+
+.task-left{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.task-center{
+    display: flex;
+    align-items: center;
+    width:20%;
+    padding-right: 1%;
+}
+
+.task-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    width: 20%;
+
+}
+
+.detail-button{
+    width: 50%;
+    height: auto;
+    font-size: 100%;
+    background-color: white;
+    border: solid 1px black;
+    margin: 7% 5%;
+}
+
+.detail-button:hover{
+    background-color: #d9d9d9;
+}
+
+.delete-button{
+    border: none;       /* 枠線を削除 */
+    background: none;   /* 背景色を削除 */
+    outline: none;      /* フォーカス時の枠線を削除 */
+    padding: 0;         /* 内側の余白を削除 */
+    margin: 10%;          /* 外側の余白を削除 */
+    cursor: pointer;    /* マウスカーソルをポインタに */
+    font-size: 200%;
+}
+
+.delete-button:hover{
+    color: white;
+}
