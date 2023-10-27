@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+.newtaskbutton-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 40px;
+}
+
+.newtaskbutton{
+    height: 50px;
+    width: 120px;
+}
